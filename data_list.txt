@@ -1,0 +1,4 @@
+0311: track1 two loops with normal speed(10), aligned with lane
+0314: track1 two loops with normal speed(10), snaking driving
+0319: track1 4 loops with high speed, 15622 (too loops with higher spped, 30, only 4642 iamges captured, vs 13492 images with spped and10, the scale is almost 3)
+0319-2: track1, two loops with normal speed(10), snaking driving
