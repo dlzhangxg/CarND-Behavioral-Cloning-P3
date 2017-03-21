@@ -110,7 +110,7 @@ The recovering images:
 The left and right camera images:
 
 ![left_1](./img4report/left_1.jpg)
-![left_2](./img4report/le_2.jpg)
+![left_2](./img4report/left_2.jpg)
 ![right_1](./img4report/right_1.jpg)
 ![right_2](./img4report/right_2.jpg)
 
