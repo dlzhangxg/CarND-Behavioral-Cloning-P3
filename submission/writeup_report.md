@@ -54,7 +54,9 @@ A picture is given in below to show the architecture.
 
 #### 2. Attempts to reduce overfitting in the model
 
-Altogether I collected more than 30,000 images, among them 13247 images were finally used, these images contains a large portion of recovering ones, which is purposely driving snake-like to the left and right most then steer back to the center lane. The models were trained by 10, 5 and 3 epochs, the generated models are test by the simulator, and only the one with three epochs works. So I used early stopping to prevent overfit. 
+Altogether I collected more than 30,000 images, among them 13247 images were finally used, these images contains a large portion of recovering ones, which is purposely driving snake-like to the left and right most then steer back to the center lane. I used Dropout after the convolution output with a ratio of 0.25. The models were planned to train 20 epochs, but early stopping occurs at the third epochs; the generated models were tested by the simulator, and could drive autonomously in track1. 
+
+![train_validation_loss.png](./img4report/train_validation_loss.png)
 
 #### 3. Model parameter tuning
 
@@ -114,7 +116,11 @@ The left and right camera images:
 ![right_1](./img4report/right_1.jpg)
 ![right_2](./img4report/right_2.jpg)
 
-After the collection process, I had about 30,000 number of data points. 
+After the collection process, I had about 13,000+ number of data points. 
+The steering angle of the test data set has the following distribution:
+![data_distribution](./img4report/data_distribution.png)
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
+
+
 
