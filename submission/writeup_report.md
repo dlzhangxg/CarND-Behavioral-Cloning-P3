@@ -118,6 +118,7 @@ The left and right camera images:
 
 After the collection process, I had about 13,000+ number of data points. 
 The steering angle of the test data set has the following distribution:
+
 ![data_distribution](./img4report/data_distribution.png)
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
